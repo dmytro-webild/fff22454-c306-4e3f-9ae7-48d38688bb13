@@ -261,7 +261,7 @@ export default function LandingPage() {
           cardTitle="Vamos estruturar o mobiliário do seu hospital do jeito certo."
           cardTag="Confiança Comprovada"
           cardTagIcon={Star}
-          cardAnimation="scale-rotate"
+          cardAnimation="slide-up"
           useInvertedBackground={true}
         />
       </div>
