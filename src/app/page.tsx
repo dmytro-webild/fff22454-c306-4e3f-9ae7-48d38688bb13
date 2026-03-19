@@ -35,7 +35,8 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
-          brandName="Lanco"
+          brandName="Novve"
+          brandLogo="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BAP93GU5ljhd89S6143nLINijD/uploaded-1773936344466-iejxn3fs.png"
           navItems={navItems}
           button={{
             text: "> Fale com um especialista",            href: "#contact"
