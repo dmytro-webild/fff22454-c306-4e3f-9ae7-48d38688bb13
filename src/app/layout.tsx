@@ -8,6 +8,7 @@ import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Poppins } from "next/font/google";
 import { Open_Sans } from "next/font/google";
 import { Montserrat } from "next/font/google";
+import { Raleway } from "next/font/google";
 
 
 
@@ -18,12 +19,9 @@ export const metadata: Metadata = {
 
 
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
-  subsets: ["latin"],
-});
-const inter = Inter({
-  variable: "--font-inter",
+
+const raleway = Raleway({
+  variable: "--font-raleway",
   subsets: ["latin"],
 });
 
@@ -35,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${montserrat.variable} ${inter.variable} antialiased`}>
+        <body className={`${raleway.variable} antialiased`}>
           <Tag />
           {children}
           <script
