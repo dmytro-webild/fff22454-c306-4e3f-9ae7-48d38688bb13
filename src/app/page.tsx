@@ -197,16 +197,16 @@ export default function LandingPage() {
           animationType="blur-reveal"
           features={[
             {
-              id: "modular",              title: "Projetos modulares e flexíveis",              description: "Adaptam-se ao layout do seu hospital com velocidade.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-man-checking-pilates-equipment_23-2150778131.jpg",              imageAlt: "Modular furniture system"
+              id: "modular",              title: "Projetos modulares e flexíveis",              description: "Adaptam-se ao layout do seu hospital com velocidade.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-man-checking-pilates-equipment_23-2150778131.jpg?_wi=1",              imageAlt: "Modular furniture system"
             },
             {
-              id: "customization",              title: "Customização real",              description: "Cada projeto pode ser ajustado ao espaço, ao fluxo e à necessidade da sua operação.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-man-checking-pilates-equipment_23-2150778131.jpg",              imageAlt: "Customizable solutions"
+              id: "customization",              title: "Customização real",              description: "Cada projeto pode ser ajustado ao espaço, ao fluxo e à necessidade da sua operação.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-man-checking-pilates-equipment_23-2150778131.jpg?_wi=2",              imageAlt: "Customizable solutions"
             },
             {
-              id: "materials",              title: "Materiais de alta performance",              description: "Aço inox, Superfície sólido Mineral (SSM), ABS antibacteriano, PEAD. Fáceis de higienizar, resistentes ao uso intenso.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-man-checking-pilates-equipment_23-2150778131.jpg",              imageAlt: "High performance materials"
+              id: "materials",              title: "Materiais de alta performance",              description: "Aço inox, Superfície sólido Mineral (SSM), ABS antibacteriano, PEAD. Fáceis de higienizar, resistentes ao uso intenso.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-man-checking-pilates-equipment_23-2150778131.jpg?_wi=3",              imageAlt: "High performance materials"
             },
             {
-              id: "technology",              title: "Tecnologia com origem alemã",              description: "Desenvolvimento com base em parcerias técnicas por vários anos com Knurr, Provita e Steinco.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-man-checking-pilates-equipment_23-2150778131.jpg",              imageAlt: "German technology partnership"
+              id: "technology",              title: "Tecnologia com origem alemã",              description: "Desenvolvimento com base em parcerias técnicas por vários anos com Knurr, Provita e Steinco.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-man-checking-pilates-equipment_23-2150778131.jpg?_wi=4",              imageAlt: "German technology partnership"
             }
           ]}
           textboxLayout="default"
