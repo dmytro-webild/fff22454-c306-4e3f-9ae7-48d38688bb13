@@ -194,19 +194,19 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           description="Cada projeto é uma solução completa: modular, customizável, fabricada com materiais de alta performance e tecnologia certificada."
           gridVariant="bento-grid"
-          animationType="blur-reveal"
+          animationType="scale-rotate"
           features={[
             {
-              id: "modular",              title: "Projetos modulares e flexíveis",              description: "Adaptam-se ao layout do seu hospital com velocidade.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-man-checking-pilates-equipment_23-2150778131.jpg?_wi=1",              imageAlt: "Modular furniture system"
+              id: "modular",              title: "Projetos modulares e flexíveis",              description: "Adaptam-se ao layout do seu hospital com velocidade e precisão técnica.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BAP93GU5ljhd89S6143nLINijD/uploaded-1773930659287-fuy5kfmt.png",              imageAlt: "Modular furniture system"
             },
             {
-              id: "customization",              title: "Customização real",              description: "Cada projeto pode ser ajustado ao espaço, ao fluxo e à necessidade da sua operação.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-man-checking-pilates-equipment_23-2150778131.jpg?_wi=2",              imageAlt: "Customizable solutions"
+              id: "customization",              title: "Customização real",              description: "Cada projeto é ajustado ao espaço, ao fluxo e à necessidade específica da sua operação hospitalar.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BAP93GU5ljhd89S6143nLINijD/uploaded-1773930659288-uxfq92si.jpg",              imageAlt: "Customizable solutions"
             },
             {
-              id: "materials",              title: "Materiais de alta performance",              description: "Aço inox, Superfície sólido Mineral (SSM), ABS antibacteriano, PEAD. Fáceis de higienizar, resistentes ao uso intenso.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-man-checking-pilates-equipment_23-2150778131.jpg?_wi=3",              imageAlt: "High performance materials"
+              id: "materials",              title: "Materiais de alta performance",              description: "Aço inox, Superfície sólido Mineral (SSM), ABS antibacteriano, PEAD. Fáceis de higienizar e resistentes ao uso intenso.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-metal-surface-texture_23-2148501089.jpg",              imageAlt: "High performance materials"
             },
             {
-              id: "technology",              title: "Tecnologia com origem alemã",              description: "Desenvolvimento com base em parcerias técnicas por vários anos com Knurr, Provita e Steinco.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-man-checking-pilates-equipment_23-2150778131.jpg?_wi=4",              imageAlt: "German technology partnership"
+              id: "technology",              title: "Tecnologia com origem alemã",              description: "Desenvolvimento baseado em parcerias técnicas estratégicas com Knurr, Provita e Steinco, trazendo excelência internacional.",              imageSrc: "http://img.b2bpic.net/free-photo/engineering-team-working-technical-drawings_23-2148896789.jpg",              imageAlt: "German technology partnership"
             }
           ]}
           textboxLayout="default"
@@ -261,7 +261,7 @@ export default function LandingPage() {
           cardTitle="Vamos estruturar o mobiliário do seu hospital do jeito certo."
           cardTag="Confiança Comprovada"
           cardTagIcon={Star}
-          cardAnimation="blur-reveal"
+          cardAnimation="slide-up"
           useInvertedBackground={true}
         />
       </div>
@@ -269,32 +269,32 @@ export default function LandingPage() {
       <div id="contact" data-section="contact">
         <ContactFaq
           ctaTitle="Conversar com um especialista"
-          ctaDescription="Fale com a Lanco hoje e descubra como nossas soluções podem transformar a infraestrutura do seu hospital."
+          ctaDescription="Fale com a Lanco hoje e descubra como nossas soluções podem transformar a infraestrutura do seu hospital com excelência e inovação."
           ctaButton={{
             text: "> Conversar agora",            href: "https://wa.me/5511999999999"
           }}
           ctaIcon={Phone}
           useInvertedBackground={false}
-          animationType="slide-up"
+          animationType="scale-rotate"
           accordionAnimationType="smooth"
           faqs={[
             {
-              id: "1",              title: "Como funciona o processo de customização?",              content: "Nossos especialistas analisam o layout do seu hospital, necessidades específicas e fluxo operacional. Criamos um projeto 100% customizado que se adapta perfeitamente ao seu espaço."
+              id: "1",              title: "Como funciona o processo de customização?",              content: "Nossos especialistas analisam o layout do seu hospital, necessidades específicas e fluxo operacional. Criamos um projeto 100% customizado que se adapta perfeitamente ao seu espaço e demandas técnicas."
             },
             {
-              id: "2",              title: "Qual é o prazo de entrega?",              content: "Os prazos variam conforme a complexidade do projeto. Normalmente, após aprovação do projeto, a fabricação leva entre 60 a 90 dias, mais o tempo de instalação."
+              id: "2",              title: "Qual é o prazo de entrega?",              content: "Os prazos variam conforme a complexidade do projeto. Normalmente, após aprovação do projeto, a fabricação leva entre 60 a 90 dias, mais o tempo de instalação profissional."
             },
             {
-              id: "3",              title: "Vocês oferecem garantia?",              content: "Sim. Todos os produtos Lanco são fornecidos com garantia de 12 meses contra defeitos de fabricação, com possibilidade de extensão."
+              id: "3",              title: "Vocês oferecem garantia?",              content: "Sim. Todos os produtos Lanco são fornecidos com garantia de 12 meses contra defeitos de fabricação, com possibilidade de extensão e suporte técnico contínuo."
             },
             {
-              id: "4",              title: "Os materiais são fáceis de higienizar?",              content: "Absolutamente. Usamos aço inox, superfícies sólido mineral e ABS antibacteriano - todos os materiais são de fácil limpeza e altamente resistentes a desinfetantes hospitalares."
+              id: "4",              title: "Os materiais são fáceis de higienizar?",              content: "Absolutamente. Usamos aço inox, superfícies sólido mineral e ABS antibacteriano - todos os materiais são de fácil limpeza e altamente resistentes a desinfetantes hospitalares e uso intenso."
             },
             {
               id: "5",              title: "Vocês fazem projetos para reformas parciais?",              content: "Sim. Podemos trabalhar com reformas completas ou parciais. Analisamos sua situação atual e propomos soluções que se integrem perfeitamente à sua infraestrutura existente."
             },
             {
-              id: "6",              title: "Como é o suporte técnico após a entrega?",              content: "A Novve oferece suporte técnico contínuo em qualquer lugar do Brasil. Temos 19 anos de parceria com a Lanco e conhecimento completo de toda a linha de produtos."
+              id: "6",              title: "Como é o suporte técnico após a entrega?",              content: "A Novve oferece suporte técnico contínuo em qualquer lugar do Brasil. Temos 19 anos de parceria com a Lanco e conhecimento completo de toda a linha de produtos e soluções."
             }
           ]}
           showCard={true}
