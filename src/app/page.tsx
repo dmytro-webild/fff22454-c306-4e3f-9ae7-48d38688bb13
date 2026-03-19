@@ -36,6 +36,8 @@ export default function LandingPage() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
           navItems={navItems}
+          logoImage="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BAP93GU5ljhd89S6143nLINijD/uploaded-1773930659287-fuy5kfmt.png"
+          logoAlt="Novve Logo"
           button={{
             text: "> Fale com um especialista",            href: "#contact"
           }}
