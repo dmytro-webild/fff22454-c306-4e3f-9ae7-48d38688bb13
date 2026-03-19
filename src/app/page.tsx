@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import HeroSplitDoubleCarousel from '@/components/sections/hero/HeroSplitDoubleCarousel';
+import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCarouselLogo';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
 import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
@@ -43,22 +43,21 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroSplitDoubleCarousel
-          title="O mobiliário completo para o seu hospital."
+        <HeroCarouselLogo
+          logoText="O mobiliário completo para o seu hospital."
           description="30 anos fabricando as melhores soluções. ISO 13485. Premiada em design e inovação."
-          tag="Excelência Hospitalar"
-          tagIcon={Sparkles}
-          tagAnimation="slide-up"
-          background={{ variant: "plain" }}
-          leftCarouselItems={[
+          buttons={[
+            {
+              text: "> Fale com um especialista",              href: "#contact"
+            }
+          ]}
+          slides={[
             {
               imageSrc: "http://img.b2bpic.net/free-photo/abstract-blur-defocused-shopping-mall_74190-5979.jpg",              imageAlt: "Hospital furniture showcase"
             },
             {
               imageSrc: "http://img.b2bpic.net/free-photo/luxury-lounge-area-hotel-reception_482257-78350.jpg",              imageAlt: "Premium medical furniture"
-            }
-          ]}
-          rightCarouselItems={[
+            },
             {
               imageSrc: "http://img.b2bpic.net/free-photo/revealing-shot-orthodontic-chair-with-nobody-teeth-x-ray-images-modern-display_482257-14035.jpg",              imageAlt: "Surgical equipment furniture"
             },
@@ -66,20 +65,9 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/scientist-woman-blue-suit-looking-tablet-standing-stairs_645730-23.jpg",              imageAlt: "Hospital mobility solutions"
             }
           ]}
-          buttons={[
-            {
-              text: "> Fale com um especialista",              href: "#contact"
-            }
-          ]}
-          buttonAnimation="slide-up"
-          avatars={[
-            { src: "http://img.b2bpic.net/free-photo/serious-inspector_1098-14750.jpg", alt: "Hospital administrator" },
-            { src: "http://img.b2bpic.net/free-photo/high-angle-female-nurse_23-2148501058.jpg", alt: "Nursing director" },
-            { src: "http://img.b2bpic.net/free-photo/woman-medic-examining-male-patient-office-routine-checkup-discussing-about-treatment-plan_482257-135628.jpg", alt: "Hospital director" },
-            { src: "http://img.b2bpic.net/free-photo/mid-adult-doctor-monitoring-oxygen-therapy-hyperbaric-chamber-looking-camera-while-sitting-control-room_637285-370.jpg", alt: "Healthcare coordinator" }
-          ]}
-          avatarText="Confiado por centenas de hospitais brasileiros"
-          carouselPosition="right"
+          autoplayDelay={3000}
+          showDimOverlay={false}
+          ariaLabel="Hero section"
         />
       </div>
 
